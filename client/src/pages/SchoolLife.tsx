@@ -35,8 +35,7 @@ export default function SchoolLife() {
             </div>
             <h2 className="text-3xl font-serif font-bold text-primary mb-6">Faith & Devotion</h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Christianity is at the core of our daily life. We start every day with morning devotion and prayer, 
-              instilling the habit of putting God first.
+              Christianity is at the heart of life at De Peak School. Each day begins with devotions and prayer, and our timetable includes regular chapel services, Scripture study and small‑group discipleship. Spiritual formation is infused into lessons so students grow in faith as they learn.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start">
@@ -85,11 +84,9 @@ export default function SchoolLife() {
 
         {/* Discipline */}
         <div className="bg-navy rounded-3xl p-8 md:p-16 text-white text-center">
-          <h2 className="text-3xl font-serif font-bold mb-6 text-secondary">A Culture of Discipline</h2>
+              <h2 className="text-3xl font-serif font-bold mb-6 text-secondary">A Culture of Discipline</h2>
           <p className="text-lg text-gray-300 max-w-3xl mx-auto mb-8">
-            "Train up a child in the way he should go..." (Proverbs 22:6). 
-            We maintain high standards of behavior, dress code, and punctuality. Our students are known for their 
-            respect, integrity, and good manners both within and outside the school premises.
+            "Train up a child in the way he should go..." (Proverbs 22:6). We maintain clear behaviour expectations, a smart dress code and punctual routines. Our pastoral team works with families to support student welfare, counsel when needed, and encourage personal responsibility.
           </p>
         </div>
       </div>

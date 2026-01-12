@@ -18,6 +18,10 @@ export default function Gallery() {
           {[1,2,3].map((i) => (
             <Card key={i} className="overflow-hidden">
               <img src={`https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=1600&auto=format&fit=crop`} alt={`Classroom ${i}`} className="w-full h-56 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-primary mb-1">Modern Classrooms</h4>
+                <p className="text-sm text-muted-foreground">Bright, well‑equipped learning spaces that support focused study and collaborative projects.</p>
+              </div>
             </Card>
           ))}
         </div>
@@ -27,6 +31,10 @@ export default function Gallery() {
           {[1,2,3].map((i) => (
             <Card key={i} className="overflow-hidden">
               <img src={`https://images.unsplash.com/photo-1521412644187-c49fa049e84d?q=80&w=1600&auto=format&fit=crop`} alt={`Event ${i}`} className="w-full h-56 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-primary mb-1">School Events</h4>
+                <p className="text-sm text-muted-foreground">Sports days, prize giving and cultural celebrations that bring our community together.</p>
+              </div>
             </Card>
           ))}
         </div>
@@ -36,6 +44,10 @@ export default function Gallery() {
           {[1,2,3].map((i) => (
             <Card key={i} className="overflow-hidden">
               <img src={`https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1600&auto=format&fit=crop`} alt={`Chapel ${i}`} className="w-full h-56 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-primary mb-1">Chapel & Devotions</h4>
+                <p className="text-sm text-muted-foreground">Worship, teaching and Scripture memory—central to daily life at De Peak School.</p>
+              </div>
             </Card>
           ))}
         </div>
@@ -45,6 +57,10 @@ export default function Gallery() {
           {[1,2,3].map((i) => (
             <Card key={i} className="overflow-hidden">
               <img src={`https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1600&auto=format&fit=crop`} alt={`Cultural ${i}`} className="w-full h-56 object-cover" />
+              <div className="p-4">
+                <h4 className="font-bold text-primary mb-1">Language & Culture</h4>
+                <p className="text-sm text-muted-foreground">Snapshots from our Yoruba cultural events and French language activities.</p>
+              </div>
             </Card>
           ))}
         </div>

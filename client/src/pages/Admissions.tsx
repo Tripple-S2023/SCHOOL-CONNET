@@ -70,11 +70,11 @@ export default function Admissions() {
               <h3 className="text-2xl font-serif font-bold text-primary mb-6">Admission Process</h3>
               <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
                 {[
-                  { title: "Inquiry & Visit", desc: "Fill the form or visit our campus for a tour." },
-                  { title: "Application Form", desc: "Purchase and fill the admission form." },
-                  { title: "Entrance Exam", desc: "Child takes a placement test (Math & English)." },
-                  { title: "Interview", desc: "Meeting with parents and the student." },
-                  { title: "Admission Offer", desc: "Successful candidates receive an offer letter." }
+                  { title: "Inquiry & Visit", desc: "Complete the online enquiry form or call to schedule a campus visit. Campus tours are by appointment and provide a chance to meet staff." },
+                  { title: "Application Form", desc: "Download, complete and submit the admission form with the required documents listed below." },
+                  { title: "Entrance Exam", desc: "Candidates sit a placement assessment covering Mathematics and English. Results help determine class placement and support needs." },
+                  { title: "Interview", desc: "A short, friendly interview with the student and parent to discuss the child's needs, strengths and placement." },
+                  { title: "Admission Offer", desc: "Successful applicants receive an offer letter with clear instructions on acceptance, fees and orientation." }
                 ].map((step, i) => (
                   <div key={i} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-secondary group-[.is-active]:bg-secondary text-primary shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 font-bold z-10">
@@ -110,12 +110,16 @@ export default function Admissions() {
             <div>
               <h3 className="text-2xl font-serif font-bold text-primary mb-6">Download Forms</h3>
               <div className="flex gap-4">
-                 <Button variant="outline" className="w-full justify-start">
-                   <FileText className="mr-2 h-4 w-4" /> Admission Policy
-                 </Button>
-                 <Button variant="outline" className="w-full justify-start">
-                   <Download className="mr-2 h-4 w-4" /> Fee Schedule
-                 </Button>
+                 <a href="/downloads/admission-form.pdf" download className="w-full">
+                   <Button variant="outline" className="w-full justify-start">
+                     <FileText className="mr-2 h-4 w-4" /> Download Admission Form
+                   </Button>
+                 </a>
+                 <a href="/downloads/fee-schedule.pdf" download className="w-full">
+                   <Button variant="outline" className="w-full justify-start">
+                     <Download className="mr-2 h-4 w-4" /> Download Fee Schedule
+                   </Button>
+                 </a>
               </div>
             </div>
           </div>

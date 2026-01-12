@@ -18,8 +18,7 @@ export default function Academics() {
         {/* Intro */}
         <div className="max-w-4xl mx-auto text-center mb-20">
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            De Peak School offers a broad and balanced curriculum that blends the best of the Nigerian National Curriculum with British educational standards. 
-            Our focus is to develop critical thinking, creativity, and a lifelong love for learning.
+            De Peak School delivers a broad, balanced and well‑structured curriculum that meets Nigerian national requirements while incorporating international best practice. We emphasise conceptual understanding, practical skills and moral reasoning to prepare students for exams and real‑world challenges.
           </p>
         </div>
 
@@ -37,6 +36,7 @@ export default function Academics() {
                 {['Mathematics', 'English Language', 'Basic Science', 'Social Studies', 'Civic Education', 'Christian Religious Studies'].map(subject => (
                   <li key={subject} className="flex items-center text-muted-foreground">
                     <CheckCircle2 className="h-4 w-4 text-secondary mr-2" /> {subject}
+                    <span className="text-sm text-muted-foreground ml-2">— focused lessons, regular assessments and exam preparation.</span>
                   </li>
                 ))}
               </ul>
@@ -56,6 +56,7 @@ export default function Academics() {
                 {['English (Language of Instruction)', 'French (Core Subject)', 'Yoruba (Cultural Heritage)'].map(subject => (
                   <li key={subject} className="flex items-center text-muted-foreground">
                     <CheckCircle2 className="h-4 w-4 text-primary mr-2" /> {subject}
+                    <span className="text-sm text-muted-foreground ml-2">— tailored lessons, conversation practice and cultural studies.</span>
                   </li>
                 ))}
               </ul>

@@ -18,6 +18,11 @@ export default function News() {
       </div>
 
       <div className="container-custom py-16">
+        <div className="mb-8 max-w-3xl mx-auto text-center">
+          <p className="text-lg text-muted-foreground">
+            News, notices and event updates for parents, guardians and the school community. Subscribe to receive email updates and follow our social profiles for live coverage of chapel, events and announcements.
+          </p>
+        </div>
         {isLoading ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
              {[1, 2, 3, 4, 5, 6].map((i) => (

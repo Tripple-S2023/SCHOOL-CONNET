@@ -65,8 +65,7 @@ export default function Contact() {
           <div>
             <SectionHeader title="Get in Touch" subtitle="We'd love to hear from you" alignment="left" className="mb-8" />
             <p className="text-muted-foreground mb-10 text-lg">
-              Whether you are a prospective parent, a current student, or a visitor, we welcome your inquiries. 
-              Visit our campus or send us a message.
+              Whether you are a prospective parent, a current student, or a visitor, we welcome your inquiries. Use the contact form below for quick questions, or call the admissions office to arrange a visit. Our team responds to messages within one business day.
             </p>
 
             <div className="space-y-8">
@@ -123,7 +122,7 @@ export default function Contact() {
                   </div>
                   <h3 className="text-2xl font-bold text-green-800 mb-2">Message Sent</h3>
                   <p className="text-green-700">
-                    Thanks for reaching out! We'll be in touch shortly.
+                    Thanks for reaching out! We'll be in touch shortly. For urgent enquiries, please call the admissions line shown opposite.
                   </p>
                   <Button onClick={() => setSubmitted(false)} className="mt-6" variant="outline">
                     Send Another Message

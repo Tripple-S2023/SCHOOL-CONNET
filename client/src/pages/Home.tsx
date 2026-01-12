@@ -27,7 +27,7 @@ export default function Home() {
               Raising God-fearing Leaders <br className="hidden md:block" /> with <span className="text-secondary">Academic Excellence</span>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-10 font-light">
-              We combine rigorous academic training with deep moral instruction to prepare students for global leadership rooted in Christian values.
+              De Peak School combines rigorous academic training with deep Christian moral instruction to prepare young men and women for leadership, service and lifelong learning. Our programmes nurture the whole child—spiritually, intellectually and socially—so graduates leave equipped for success in higher education and meaningful community impact.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Link href="/admissions">
@@ -80,18 +80,18 @@ export default function Home() {
                 className="mb-8"
               />
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                At De Peak School, we believe that education is more than just academic grades. It is about shaping character, building resilience, and fostering a deep sense of purpose.
+                At De Peak School, education goes beyond test scores. We focus on shaping character, building resilience, and fostering a deep sense of purpose founded on Christian truth. Students receive personalised academic support and mentoring so they thrive academically and morally.
               </p>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                Located in a serene environment conducive for learning, we offer a unique blend of the Nigerian and British curricula, enriched with strong Christian moral instruction.
+                Set in a safe and nurturing environment, our curriculum blends the Nigerian national requirements with global best practice. Teachers are committed Christians who integrate biblical worldview and values across every subject.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {[
-                  { icon: BookOpen, title: "Christian Values", text: "Bible-based moral instruction integrated into learning." },
-                  { icon: Star, title: "Academic Excellence", text: "Outstanding performance in national examinations." },
-                  { icon: Languages, title: "Multilingual", text: "Proficiency in English, French, and Yoruba." },
-                  { icon: GraduationCap, title: "Future Leaders", text: "Mentorship programs for leadership development." }
+                  { icon: BookOpen, title: "Christian Values", text: "Daily devotions, chapel, Scripture memory and moral formation integrated across the timetable." },
+                  { icon: Star, title: "Academic Excellence", text: "Rigorous lessons, continuous assessment and targeted exam preparation for national and international success." },
+                  { icon: Languages, title: "Multilingual", text: "Comprehensive instruction in English, core French lessons and Yoruba for cultural literacy and communication." },
+                  { icon: GraduationCap, title: "Future Leaders", text: "Leadership labs, mentorship and community service that develop character and civic responsibility." }
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-4">
                     <div className="bg-primary/5 p-3 rounded-lg text-primary">

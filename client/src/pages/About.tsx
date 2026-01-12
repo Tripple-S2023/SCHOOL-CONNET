@@ -32,16 +32,13 @@ export default function About() {
               <p className="text-secondary font-semibold mb-6">Dr. Emmanuel Adebayo, PhD.</p>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  Welcome to De Peak School, a citadel of learning where academic excellence meets spiritual depth. 
-                  Our goal is not just to educate the mind, but to nurture the soul.
+                  Welcome to De Peak School. Established to provide excellent Christian day secondary education, we are dedicated to developing students who excel academically and live out their faith with integrity. Our programmes are designed to cultivate intellect, character and service.
                 </p>
                 <p>
-                  In a rapidly changing world, the foundation we give our children matters more than ever. 
-                  We are committed to raising a generation of leaders who are academically sound, 
-                  morally upright, and spiritually grounded in Christian faith.
+                  Our commitment is to raise God‑fearing leaders who are equipped with strong moral convictions, critical thinking skills and a heart for community. We partner closely with parents to ensure each child receives individual attention and pastoral care.
                 </p>
                 <p>
-                  I invite you to join us on this journey of moulding the next generation of global influencers.
+                  Join us as we nurture young people who will contribute positively to Nigeria and the wider world through knowledge, faith and service.
                 </p>
               </div>
               <div className="mt-8 pt-8 border-t border-gray-100">

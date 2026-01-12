@@ -13,13 +13,13 @@ export function Footer() {
               Raising God-fearing leaders through academic excellence, moral discipline, and Christian values in the heart of Nigeria.
             </p>
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
+              <a href="https://facebook.com/depeakschool" target="_blank" rel="noreferrer" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
+              <a href="https://twitter.com/depeakschool" target="_blank" rel="noreferrer" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
+              <a href="https://instagram.com/depeakschool" target="_blank" rel="noreferrer" className="h-10 w-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-secondary hover:text-primary transition-all duration-300">
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
