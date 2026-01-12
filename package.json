@@ -5,8 +5,10 @@
   "license": "MIT",
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
+    "dev:win": "powershell -NoProfile -Command \"$env:NODE_ENV='development'; npx tsx server/index.ts\"",
     "build": "tsx script/build.ts",
-    "start": "NODE_ENV=production node dist/index.cjs",
+    "start": "node -e \"process.env.NODE_ENV='production'; require('./dist/index.cjs')\"",
+    "deploy:open": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/open-in-chrome.ps1",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },

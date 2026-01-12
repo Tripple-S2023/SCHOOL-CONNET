@@ -252,7 +252,8 @@ export default function Admissions() {
                             <Textarea 
                               placeholder="Any specific questions regarding transportation, boarding, etc." 
                               className="min-h-[120px] bg-gray-50"
-                              {...field} 
+                              {...field}
+                              value={field.value ?? ""}
                             />
                           </FormControl>
                           <FormMessage />

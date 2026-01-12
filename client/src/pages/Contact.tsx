@@ -166,7 +166,7 @@ export default function Contact() {
                         <FormItem>
                           <FormLabel>Phone Number</FormLabel>
                           <FormControl>
-                            <Input placeholder="080..." {...field} className="h-12 bg-gray-50" />
+                            <Input placeholder="080..." {...field} value={field.value ?? ""} className="h-12 bg-gray-50" />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -198,7 +198,8 @@ export default function Contact() {
                           <Textarea 
                             placeholder="How can we help you?" 
                             className="min-h-[150px] bg-gray-50"
-                            {...field} 
+                            {...field}
+                            value={field.value ?? ""}
                           />
                         </FormControl>
                         <FormMessage />
