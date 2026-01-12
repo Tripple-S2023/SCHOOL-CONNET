@@ -14,6 +14,7 @@ export function Navigation() {
     { href: "/admissions", label: "Admissions" },
     { href: "/school-life", label: "School Life" },
     { href: "/news", label: "News & Events" },
+    { href: "/gallery", label: "Gallery" },
     { href: "/contact", label: "Contact" },
   ];
 

@@ -34,6 +34,7 @@ export function Footer() {
                 { label: "Admissions", href: "/admissions" },
                 { label: "Academics", href: "/academics" },
                 { label: "News & Events", href: "/news" },
+                { label: "Gallery", href: "/gallery" },
                 { label: "Contact Us", href: "/contact" }
               ].map((link) => (
                 <li key={link.href}>
