@@ -1,0 +1,153 @@
+Create a modern, professional secondary school website for a Christian-based day school named DE PEAK SCHOOL, located in Nigeria. The website structure, tone, and layout should be inspired by Seed of Knowledge Schools (Nigeria).
+
+School Profile
+
+Name: DE PEAK SCHOOL
+
+Type: Secondary School
+
+Nature: Christian-based, Day School
+
+Languages Offered: English, French, and Yoruba
+
+Target Audience: Parents, students, and guardians in Nigeria
+
+1. Homepage
+
+Hero section with a strong Christian-inspired slogan (e.g., “Raising God-fearing Leaders with Academic Excellence”).
+
+Brief introduction to DE PEAK SCHOOL highlighting faith, discipline, and academic excellence.
+
+Call-to-action buttons: Apply Now, Admissions, Contact Us.
+
+Summary cards for:
+
+Christian Values
+
+Academic Excellence
+
+Multilingual Education (English, French, Yoruba)
+
+Latest News & Upcoming Events preview.
+
+2. About Us
+
+Background and history of DE PEAK SCHOOL.
+
+Vision Statement (faith-driven excellence).
+
+Mission Statement (academic, moral, and spiritual development).
+
+Core Values (Faith, Discipline, Excellence, Integrity, Service).
+
+Message from the Proprietor or Principal (Christian leadership tone).
+
+3. Academics
+
+Overview of the secondary school curriculum.
+
+Subjects offered with emphasis on:
+
+English Language
+
+French Language
+
+Yoruba Language
+
+Teaching methodology and moral instruction.
+
+Academic calendar overview.
+
+4. Admissions
+
+Admission process explained step-by-step.
+
+Entry requirements.
+
+Age and class placement guide.
+
+Downloadable admission forms.
+
+Online enquiry form.
+
+5. School Life
+
+Christian activities (devotions, chapel services, moral instruction).
+
+Co-curricular and extracurricular activities.
+
+Student discipline and welfare.
+
+Language immersion and cultural activities.
+
+6. News & Events
+
+School announcements.
+
+Academic events.
+
+Religious and cultural celebrations.
+
+PTA meetings and school programs.
+
+7. Gallery
+
+Image sections for:
+
+Classrooms
+
+School events
+
+Christian activities
+
+Language and cultural programs
+
+Video section (optional).
+
+8. Social Media Feed
+
+Embed live Facebook and Instagram feeds showing:
+
+School activities
+
+Events
+
+Announcements
+
+Include icons and follow buttons.
+
+9. Contact Us
+
+School address (Nigeria).
+
+Phone numbers.
+
+Email address.
+
+Contact form.
+
+Google Map placeholder.
+
+10. Footer
+
+Quick links to major pages.
+
+Vision & Mission summary.
+
+Social media icons (Facebook & Instagram).
+
+Copyright notice.
+
+Design & Technical Guidelines
+
+Clean, responsive, mobile-friendly design.
+
+Professional school colour palette.
+
+Easy navigation menu.
+
+Faith-inspired but modern look.
+
+SEO-friendly headings and content.
+
+Generate all page titles, navigation menus, section headings, and well-written content suitable for a Nigerian Christian secondary school website.

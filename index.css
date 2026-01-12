@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Navy Blue Primary */
+  --primary: 222 47% 20%;      /* #1B2B4A - Deep Academic Navy */
+  --primary-foreground: 0 0% 100%;
+
+  /* Gold Accent */
+  --secondary: 45 93% 47%;     /* #E6B800 - School Gold */
+  --secondary-foreground: 222 47% 20%; /* Navy text on Gold */
+  
+  /* Accent / Muted Gold */
+  --accent: 45 93% 96%;
+  --accent-foreground: 222 47% 20%;
+
+  /* Neutral / White */
+  --background: 0 0% 100%;
+  --foreground: 222 47% 15%;   /* Very dark navy/grey for text */
+
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 15%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 15%;
+
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --ring: 222 47% 20%;
+
+  --radius: 0.5rem;
+  
+  /* Fonts - defined in tailwind config via vars but setting fallback here */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    @apply font-bold text-primary tracking-tight;
+  }
+}
+
+/* Custom Utilities for Academic Excellence Theme */
+.text-gold {
+  color: hsl(var(--secondary));
+}
+.bg-navy {
+  background-color: hsl(var(--primary));
+}
+.bg-gold {
+  background-color: hsl(var(--secondary));
+}
+
+.hero-gradient {
+  background: linear-gradient(rgba(27, 43, 74, 0.9), rgba(27, 43, 74, 0.8)), 
+              url('https://pixabay.com/get/g2aeabfa0f01ec5e8abdcfca9377ac4ecb464ac09383d1f9c724b0d554e85724865a42efc60467d90e6e045cd5c91087ea5a3a259039f920cdfef1b3e4be79674_1280.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
