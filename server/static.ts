@@ -3,11 +3,21 @@ import fs from "fs";
 import path from "path";
 
 export function serveStatic(app: Express) {
-  const distPath = path.resolve(__dirname, "public");
+  // Prefer a local `server/public` folder, but fall back to the Vite build output
+  // (`../dist/public`) if it exists. This makes deployment easier when the
+  // client build is placed in `dist/public` by the build script.
+  const serverPublic = path.resolve(__dirname, "public");
+  const distPublic = path.resolve(__dirname, "..", "dist", "public");
+
+  let distPath = serverPublic;
   if (!fs.existsSync(distPath)) {
-    throw new Error(
-      `Could not find the build directory: ${distPath}, make sure to build the client first`,
-    );
+    if (fs.existsSync(distPublic)) {
+      distPath = distPublic;
+    } else {
+      throw new Error(
+        `Could not find the build directory: tried ${serverPublic} and ${distPublic}. Build the client first`,
+      );
+    }
   }
 
   app.use(express.static(distPath));
