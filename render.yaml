@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: school-connect
+    env: node
+    plan: free
+    buildCommand: "npm run build"
+    startCommand: "npm start"
+    repo: https://github.com/Tripple-S2023/SCHOOL-CONNET
+    branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production
+    specs:
+      disk: 1024
+      memory: 512
